@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services - Nest Digital</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      padding-top: 70px;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    main {
+      flex: 1;
+    }
+    .section {
+      padding: 60px 20px;
+    }
+    .service-card {
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+      padding: 20px;
+      transition: all 0.1s ease;
+      background: #fff;
+      text-align: center;
+      height: 100%;
+    }
+    .service-card:hover {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    .service-card img {
+      max-height: 100px;
+      width: auto;
+      margin-bottom: 15px;
+      object-fit: contain;
+    }
+    .service-card .btn {
+      margin-top: 15px;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ92mbO--E6EaZxphFu9RFESuIglddAtA14rw&s" height="50" alt="Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item active"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Services Section --><section class="section">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Services</h2>
+    <div class="row justify-content-center">
+
+      <!-- Cloud Services -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex">
+        <div class="service-card w-100">
+          <img src="https://cdn-icons-png.flaticon.com/512/4149/4149673.png" alt="Cloud Services" />
+          <h5>Cloud Services</h5>
+          <p>Secure, scalable cloud integration and migration with 24/7 availability.</p>
+          <a href="cloud.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Cybersecurity -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex">
+        <div class="service-card w-100">
+          <img src="https://cdn-icons-png.flaticon.com/512/1605/1605350.png" alt="Cybersecurity" />
+          <h5>Cybersecurity Solutions</h5>
+          <p>Protect your data with advanced threat detection, audits, and compliance tools.</p>
+          <a href="cybersecurity.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Data Engineering -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex">
+        <div class="service-card w-100">
+          <img src="https://cdn-icons-png.flaticon.com/512/4472/4472582.png" alt="Data Engineering" />
+          <h5>Data Engineering</h5>
+          <p>Design and manage data pipelines that support analytics and real-time insights.</p>
+          <a href="data.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+
+      <!-- DevOps -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex">
+        <div class="service-card w-100">
+          <img src="https://cdn-icons-png.flaticon.com/512/4178/4178726.png" alt="DevOps" />
+          <h5>DevOps Services</h5>
+          <p>Automate CI/CD pipelines and accelerate software delivery with best DevOps practices.</p>
+          <a href="devops.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+
+      <!-- AI & Analytics -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex">
+        <div class="service-card w-100">
+          <img src="https://cdn-icons-png.flaticon.com/512/2621/2621048.png" alt="AI & Analytics" />
+          <h5>AI & Data Analytics</h5>
+          <p>Leverage machine learning and analytics to turn data into actionable insights.</p>
+          <a href="ai.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    
+  <footer class="footer">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Nest Digital Clone. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

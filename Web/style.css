@@ -1,0 +1,30 @@
+body {
+  padding-top: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+h2 {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: 700;
+  color: #007bff !important;
+}
+
+.card {
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
